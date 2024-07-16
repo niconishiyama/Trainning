@@ -69,4 +69,26 @@ h1, p {
     justify-content: center;
     align-items: center;
     height: 100vh;
+} 
+
+#margin {
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+button {
+    background-color: rgba(13, 104, 231, 0.496);
+    border-radius: 5px;
+    border: none;
+    font-family: 'Poppins';
+    font-size: 1em;
+    font-weight: 600;
+    margin-bottom: 10px;
+    padding: 10px;
+    transition-duration: 300ms;
+}
+
+button:hover {
+    background-color: rgb(206, 216, 225);
+    cursor: pointer;
 }
